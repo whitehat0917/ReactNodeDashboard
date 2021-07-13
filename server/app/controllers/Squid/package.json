@@ -1,0 +1,30 @@
+{
+    "name": "blackjack",
+    "version": "1.0.0",
+    "description": "blackjack Node Backend",
+    "main": "index.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon --watch modules app.js"
+    },
+    "author": "SimpleVisor",
+    "license": "ISC",
+    "dependencies": {
+        "child_process": "^1.0.2",
+        "cookie-parser": "^1.4.3",
+        "cors": "^2.8.5",
+        "express": "^4.16.2",
+        "express-session": "^1.15.6",
+        "mysql": "^2.18.1",
+        "mysql-model": "0.0.3",
+        "randomstring": "^1.1.5",
+        "request": "^2.88.2",
+        "request-ip": "^2.1.3"
+    },
+    "devDependencies": {
+        "@types/react": "^16.8.23"
+    }
+}
